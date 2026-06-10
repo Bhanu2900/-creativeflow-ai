@@ -6,8 +6,7 @@ from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
-os.environ.setdefault("GROQ_API_KEY", "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")
-os.environ.setdefault("GITHUB_TOKEN", "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")
+
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
