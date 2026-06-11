@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 [Try the Live Demo](https://your-app-url.streamlit.app)
+## 🚀 [Try the Live Demo](https://ayzvpcy8saqbnxbdbotasp.streamlit.app/)
 
 ---
 
