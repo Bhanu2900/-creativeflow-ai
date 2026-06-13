@@ -159,7 +159,7 @@ def apply_theme(t):
 # ── Sidebar ───────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("<h2 style='margin:0'>✨ CreativeFlow AI</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='font-size:13px;opacity:.6;margin-top:4px'>Powered by Microsoft Foundry IQ</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:13px;opacity:.6;margin-top:4px'>Powered by Creative Knowledge Engine</p>", unsafe_allow_html=True)
     st.divider()
 
     prompt = st.text_area("💡 Your Creative Idea", placeholder="e.g. A lonely astronaut finds music on Mars...", max_chars=300, height=120)
@@ -218,7 +218,7 @@ st.markdown(f"""
     <p style='color:{theme["sub"]};font-size:16px'>Turn one idea into a story, music, and visual concept</p>
 </div>
 <div style='text-align:center;margin-bottom:24px'>
-    <span class='cf-badge'>⚡ {theme["name"]} — Microsoft Foundry IQ Active</span>
+    <span class='cf-badge'>⚡ {theme["name"]} — Multi-Agent Creative Generation Active</span>
 </div>
 """, unsafe_allow_html=True)
 

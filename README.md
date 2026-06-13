@@ -1,281 +1,302 @@
-<div align="center">
-
 # ✨ CreativeFlow AI
 
-### *One idea. Three creative universes. Infinite possibilities.*
+### One Idea. Three Creative Universes. Infinite Possibilities.
 
-<img src="https://img.shields.io/badge/Microsoft-Foundry%20IQ-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+<p align="center">
+
+<img src="https://img.shields.io/badge/Multi--Agent-Creative%20Pipeline-purple?style=for-the-badge" />
 <img src="https://img.shields.io/badge/GitHub-Copilot-000000?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Groq-LLaMA%203.3-F55036?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Groq-LLaMA%203.3%2070B-F55036?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
-<br/>
+</p>
 
-> **CreativeFlow AI** transforms a single creative spark into a complete story, music direction, and visual concept — all at once, all cohesive, all yours.
-
-<br/>
+> CreativeFlow AI transforms a single creative spark into a complete story, music direction, and visual concept — all at once, all cohesive, all connected.
 
 ---
 
-## 🚀 [Try the Live Demo](https://ayzvpcy8saqbnxbdbotasp.streamlit.app/)
+## 🚀 Live Demo
+
+https://ayzvpcy8saqbnxbdbotasp.streamlit.app/
 
 ---
 
-</div>
+## 🌌 Vision
 
-<br/>
+CreativeFlow AI helps creators move from a simple idea to an entire creative universe.
 
-## 🌌 The Vision
+Instead of generating isolated outputs, CreativeFlow AI creates:
 
-<div align="center">
-<img src="architecture.png" alt="CreativeFlow AI Architecture" width="700"/>
-</div>
+* 📖 A complete narrative
+* 🎵 A music concept with lyrics and production guidance
+* 🎨 A visual world with cinematic prompts
 
-<br/>
-
-<br/>
+All generated from the same creative idea.
 
 ---
 
-## ✨ What You Get
+## ✨ Features
 
-<table>
-<tr>
-<td width="33%" align="center">
+### 📖 Story Generation
 
-### 📖 Story
-A complete narrative built on proven frameworks like Hero's Journey, Three-Act Structure, or In Media Res. Every story has a title, arc, and emotional core.
+Generate compelling stories using established narrative structures:
 
-</td>
-<td width="33%" align="center">
+* Hero's Journey
+* Three-Act Structure
+* In Media Res
+* Character-driven storytelling
 
-### 🎵 Music
-Full lyrics written in **your chosen music style** — Rock, Jazz, Hip-hop, Classical, and 8 more. Complete with tempo, chord progressions, instruments, and production notes.
+Each story includes:
 
-</td>
-<td width="33%" align="center">
+* Title
+* Narrative arc
+* Thematic grounding
+* Word count
 
-### 🎨 Visual
-A cinematic scene description, color story, key visual elements, and a ready-to-use image prompt for DALL-E, Midjourney, or Adobe Firefly.
+---
 
-</td>
-</tr>
-</table>
+### 🎵 Music Generation
 
-<br/>
+Generate complete songs in multiple musical styles:
+
+* Rock
+* Jazz
+* Hip-hop
+* Pop
+* Classical
+* Electronic
+* R&B
+* Folk
+* Metal
+* Blues
+* Reggae
+* Country
+
+Each song includes:
+
+* Song title
+* Lyrics
+* Tempo guidance
+* Chord progression
+* Production notes
+* Genre-specific structure
+
+---
+
+### 🎨 Visual Concept Generation
+
+Generate cinematic visual concepts including:
+
+* Scene title
+* Scene description
+* Color story
+* Visual elements
+* Image generation prompt
+
+Compatible with:
+
+* Midjourney
+* DALL·E
+* Adobe Firefly
+* Ideogram
+* Stable Diffusion
+
+---
+
+### 🎭 Dynamic Themes
+
+18 mood-and-genre-aware themes dynamically transform the application's appearance.
+
+Examples include:
+
+* Cosmic Indigo
+* Deep Space
+* Golden Kingdom
+* Enchanted Forest
+* Noir Shadow
+* Blood Moon
+* Lavender Dusk
+* Shadow Realm
+
+---
+
+### 📌 Inspiration Layer
+
+Automatically generates inspiration resources through:
+
+* Pinterest searches
+* ArtStation
+* Behance
+* Dribbble
+* Unsplash
+
+Helping creators continue their creative workflow beyond the app.
+
+---
+
+### 📄 Export System
+
+Export generated creative universes into professionally formatted Word documents.
+
+Includes:
+
+* Story
+* Music
+* Visual concepts
+* Creative metadata
+
+---
+
+## 🧠 Multi-Agent Architecture
+
+CreativeFlow AI is built as a coordinated multi-agent system.
+
+### Creative Knowledge Engine
+
+Retrieves structured creative guidance across:
+
+* Storytelling
+* Music theory
+* Visual design
+* Creative themes
+
+This ensures all outputs remain aligned to the same creative vision.
+
+### Story Agent
+
+Generates narrative content using retrieved frameworks and themes.
+
+### Music Agent
+
+Generates lyrics, structure, tempo guidance, chord progressions, and production notes.
+
+### Visual Agent
+
+Generates visual concepts, scene descriptions, color stories, and image prompts.
+
+### Provider Layer
+
+A centralized provider abstraction enables support for multiple AI providers while keeping the overall architecture unchanged.
 
 ---
 
 ## 🏆 Microsoft Agents League 2026
 
-> Built for the **Creative Apps** track of the Microsoft Agents League Hackathon
+Built for the Creative Apps track of the Microsoft Agents League Hackathon.
 
-### ⚡ Microsoft Foundry IQ Integration
+### GitHub Copilot Usage
 
-CreativeFlow AI uses **Microsoft Foundry IQ** as its core intelligence layer — not just an API call, but a grounded knowledge retrieval system that:
+GitHub Copilot was used throughout development for:
 
-- 🔍 Retrieves structured creative knowledge across story, music, and visual domains
-- 🧠 Grounds all outputs in proven frameworks to reduce hallucination
-- 🔗 Connects multiple knowledge sources into one cohesive creative universe
-- ✅ Ensures every output is thematically consistent and creatively intentional
-
-### 🤖 GitHub Copilot — Used Throughout
-
-Every file in this project was built with GitHub Copilot as a coding partner:
-
-| How Copilot Helped | Where |
-|---|---|
-| Generated agent functions from comments | `agents/` |
-| Suggested error handling patterns | `app.py` |
-| Autocompleted Streamlit UI components | `app.py` |
-| Helped design the CSS theming system | `apply_theme()` |
-| Refactored the multi-agent pipeline | `foundry/` |
-
-<br/>
+* Agent implementation
+* Streamlit UI development
+* Refactoring
+* Code completion
+* Rapid prototyping
 
 ---
 
-## 🎭 18 Dynamic Themes
-
-*The app transforms its entire visual identity based on your mood × genre combo*
-
-| | Mood | Genre | Theme | Vibe |
-|---|---|---|---|---|
-| 🚀 | Epic | Sci-fi | Cosmic Indigo | Deep indigo · Electric blue |
-| 🌌 | Mysterious | Sci-fi | Deep Space | Midnight navy · Ice blue |
-| ⚔️ | Epic | Fantasy | Golden Kingdom | Dark amber · Burnished gold |
-| 🌿 | Mysterious | Fantasy | Enchanted Forest | Forest black · Emerald |
-| 🔪 | Dark | Thriller | Noir Shadow | Pure black · Crimson |
-| 🌹 | Romantic | Romance | Rose Velvet | Deep rose · Hot pink |
-| 📜 | Calm | Historical | Aged Parchment | Dark sepia · Warm gold |
-| 🦄 | Playful | Fantasy | Rainbow Realm | Dark purple · Violet |
-| 🩸 | Dark | Horror | Blood Moon | Near-black · Blood red |
-| 🌠 | Calm | Sci-fi | Soft Nebula | Midnight · Cyan |
-| 🏛️ | Epic | Historical | Bronze Age | Dark earth · Bronze |
-| 🌸 | Romantic | Fantasy | Twilight Bloom | Deep violet · Magenta |
-| 🍭 | Playful | Romance | Cotton Candy | Dark mauve · Bubblegum |
-| 💜 | Calm | Romance | Lavender Dusk | Dark plum · Lavender |
-| 🌑 | Dark | Fantasy | Shadow Realm | Near-black · Deep purple |
-| 🕵️ | Mysterious | Thriller | Midnight Cipher | Dark slate · Indigo |
-| ❤️‍🔥 | Epic | Romance | Crimson Epic | Dark maroon · Flame red |
-| 🍃 | Calm | Fantasy | Serene Glade | Forest black · Mint |
-
-<br/>
-
----
-
-## 🎵 12 Music Styles
-
-*Every style has its own song structure, lyric voice, and production DNA*
-
-🎸 Rock        →  Power chords · Anthemic chorus · Electric energy
-🎷 Jazz        →  Syncopated rhythm · Blue notes · Sophisticated phrasing
-🎤 Hip-hop     →  16-bar verses · Internal rhymes · Storytelling flow
-🎵 Pop         →  Catchy hook · Verse-chorus-bridge · Radio-ready
-🎻 Classical   →  Operatic phrasing · Orchestral imagery · Dramatic dynamics
-🎹 Electronic  →  Build-up · Drop · Hypnotic minimal lyrics
-🎶 R&B         →  Melismatic runs · Soulful groove · Emotional depth
-🪕 Folk        →  Storytelling verses · Acoustic warmth · Poetic imagery
-🤘 Metal       →  Heavy breakdowns · Aggressive intensity · Dark themes
-🎺 Blues       →  12-bar structure · Call and response · Raw emotion
-🌴 Reggae      →  Offbeat rhythm · Social consciousness · Uplifting message
-🤠 Country     →  Heartfelt storytelling · Rural imagery · Twang
-
-<br/>
-
----
-
-## 📌 Pinterest Inspiration System
-
-After generating your creative universe, CreativeFlow AI auto-builds **three Pinterest boards**:
-
-| Board | What it searches |
-|---|---|
-| 🎨 Theme Mood Board | Mood × Genre concept art and color palettes |
-| 🖼️ Scene Reference | Visual elements from your specific scene |
-| 🎵 Music Aesthetic | Album art and visuals matching your music style |
-
-Plus direct links to **ArtStation**, **Unsplash**, **Behance**, and **Dribbble**.
-
-<br/>
-
----
-
-## 🔗 Continue Your Work
-
-*CreativeFlow AI doesn't trap your creativity — it launches it*
-
-| Your Output | Continue On |
-|---|---|
-| 📖 Story | 🎬 Veo 3 · 📝 Google Docs · ✍️ Medium · 🎬 Runway ML · 🎭 Pika Labs |
-| 🎵 Music | 🎵 Suno AI · 🎶 Udio · 🎸 Soundraw · 🎤 Musicfy |
-| 🎨 Visual | 🔥 Adobe Firefly · 🎨 Ideogram AI · 🌌 Midjourney · 🤖 Kling AI |
-
-<br/>
-
----
-
-## 🛠️ Tech Stack
+## ⚙️ Technology Stack
 
 ```yaml
 Frontend:         Streamlit
-AI Agents:        Groq API — LLaMA 3.3 70B Versatile  
-Microsoft IQ:     Foundry IQ via GitHub Models (GPT-4o mini)
-Coding Partner:   GitHub Copilot in VS Code
+AI Models:        Groq (LLaMA 3.3 70B Versatile)
+Architecture:     Multi-Agent Creative Pipeline
+Knowledge Layer:  Creative Knowledge Engine
+Coding Partner:   GitHub Copilot
 Export:           python-docx
-Config:           python-dotenv
+Environment:      python-dotenv
 ```
-
-<br/>
-
----
 
 ## 📁 Project Structure
 
+```text
 creativeflow-ai/
 │
-├── 🚀 app.py                    Main Streamlit application
-│                                18 dynamic themes · Sidebar · Tabs
+├── app.py
 │
-├── 🤖 agents/
-│   ├── story_agent.py           Story generation agent
-│   ├── music_agent.py           Music direction agent (12 styles)
-│   └── visual_agent.py          Visual concept agent
+├── agents/
+│   ├── story_agent.py
+│   ├── music_agent.py
+│   └── visual_agent.py
 │
-├── ⚡ foundry/
-│   └── iq_retriever.py          Microsoft Foundry IQ layer
+├── foundry/
+│   └── iq_retriever.py
 │
-├── 🛠️ utils/
-│   └── exporter.py              Word document export
+├── utils/
+│   ├── llm_provider.py
+│   └── exporter.py
 │
-├── 📋 requirements.txt
-├── 🔐 .env                      API keys (not committed)
-└── 📖 README.md
-
-<br/>
-
----
+├── requirements.txt
+├── .env
+└── README.md
+```
 
 ## ⚡ Quick Start
 
 ```bash
-# 1. Clone
+# Clone repository
 git clone https://github.com/YOUR_USERNAME/creativeflow-ai.git
+
 cd creativeflow-ai
 
-# 2. Setup
-python -m venv venv
-venv\Scripts\activate        # Windows
-source venv/bin/activate     # Mac/Linux
+# Create virtual environment
+python -m venv .venv
+
+# Activate environment
+# Windows
+.venv\Scripts\activate
+
+# Linux / Mac
+source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 3. Configure — create .env file
-GROQ_API_KEY=your_groq_key_here
-GITHUB_TOKEN=your_github_token_here
+# Configure API Keys
+GROQ_API_KEY=your_groq_api_key
 
-# 4. Run
+# Launch
 streamlit run app.py
 ```
 
-<br/>
+## 💡 Example Prompts
+
+* A blind musician who discovers she can see through sound
+* A lonely astronaut finds music on Mars
+* A detective who can taste lies
+* Two rival chefs fall in love through the food they make
+* A child who can talk to ancient trees discovers a dark secret
+* The last dragon learns to paint instead of breathe fire
 
 ---
 
-## 💡 Try These Prompts
+## 🌟 Why CreativeFlow AI?
 
-✨  "A blind musician who discovers she can see through sound"
-🚀  "A lonely astronaut finds music on Mars"
-🔪  "A detective who can taste lies"
-🌹  "Two rival chefs fall in love through the food they make"
-🌿  "A child who can talk to ancient trees discovers a dark secret"
-⚔️  "The last dragon learns to paint instead of breathe fire
-
-<br/>
-
----
-
-## 🌟 Why CreativeFlow AI Stands Out
-
-| | CreativeFlow AI | Generic AI Tools |
-|---|:---:|:---:|
-| Multi-domain creative output | ✅ | ❌ |
-| Microsoft Foundry IQ grounding | ✅ | ❌ |
-| 18 dynamic UI themes | ✅ | ❌ |
-| 12 music genre styles | ✅ | ❌ |
-| Auto Pinterest inspiration | ✅ | ❌ |
-| Platform redirect ecosystem | ✅ | ❌ |
-| Cohesive cross-domain output | ✅ | ❌ |
-| Export to Word | ✅ | ❌ |
-
-<br/>
+| Feature                       | CreativeFlow AI | Typical AI Tools |
+| ----------------------------- | --------------- | ---------------- |
+| Multi-domain generation       | ✅               | ❌                |
+| Story + Music + Visual output | ✅               | ❌                |
+| Creative knowledge grounding  | ✅               | ❌                |
+| Dynamic themes                | ✅               | ❌                |
+| Music style specialization    | ✅               | ❌                |
+| Inspiration ecosystem         | ✅               | ❌                |
+| Word export                   | ✅               | ❌                |
+| Cohesive creative universe    | ✅               | ❌                |
 
 ---
 
-<div align="center">
+## ❤️ Built For Creators
 
-Built with ❤️ for **Microsoft Agents League Hackathon 2026**
+CreativeFlow AI is designed for writers, musicians, filmmakers, game designers, artists, and storytellers who want to turn a single idea into a complete creative experience.
 
-*CreativeFlow AI — Where ideas become universes*
+---
 
-</div>
+<p align="center">
+
+Built for Microsoft Agents League 2026
+
+<b>CreativeFlow AI — Where Ideas Become Universes.</b>
+
+</p>
